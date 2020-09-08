@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #faf4fa;
+}
+.container{
+    width: 981px;
+    height: 898px;
+    margin: auto;
+}
+.header-bar{
+    background-color: #884583;
+    height: 35px;
+}
+.header-menu{
+    display: grid;
+    grid-template-columns: 1fr 250px;
+}
+ul li{
+    list-style: none;
+    float: left;
+    padding: 7px 13px;
+    border-right: 1px double #a864a8;
+}
+ul li:hover{
+    background-color: green;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+.header-right{
+    margin-top: 7px;
+}
+.inpput{
+    outline: none;
+}
+.button{
+    border: none;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #884583;
+    height: 22px;
+    color: #fff;
+}
+.logo {
+    text-align: center;
+    padding-top: 10px;
+}
+.content{
+    background-color: #fff;
+    height: 699px;
+}
+.content-body{
+    display: grid;
+    grid-template-columns: 263px 1fr;
+}
+.content-left{
+    margin-left: 13px;
+}
+.content-bar{
+    background-color: #884583;
+    height: 41px;
+    width: 261px;
+}
+.content-bar h3{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 9px;
+} 
+.content-boder{
+    border: 1px solid #e1e1e1;
+    margin-top: 7px;
+    height: 185px;
+    width: 261px;
+}
+.content-boder h6{
+    color: #884583;
+    padding-left: 10px;
+    font-size: 10px;
+    margin-top: -3px;
+    text-align: center;
+    padding-top: 1px;
+  
+}
+.content-right{
+    padding: 0px 40px;
+}
+.content-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.content-name {
+    border: 1px solid #e1e1e1; 
+    
+    height: 217px;
+}
+.content-name img{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.content-name h3{
+    color: #a864a8;
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-family: myfont;
+}
+.content-name h5{
+   text-align: center;
+   padding-top: 15px;
+   color: #bc0374;
+   font-family: fontchu;
+}
+@font-face{
+    font-family: myfont;
+    src: url(./font/UTM\ Duepuntozero.ttf);
+}
+@font-face{
+    font-family: fontchu;
+    src: url(./font/UTM\ DuepuntozeroBold.ttf);
+}
+.content-right img{
+    transition: all 2s linear;
+}
+.content-right img:hover{
+    transform: rotate(360deg);
+    opacity: 0.5;
+}
+.banner{
+    padding-top: 10px;
+    text-align: center;
+}
+footer{
+    background-color: #884583;
+    margin-top: 10px;
+    height: 48px;
+}
+.footer-center{
+    text-align: center;
+    padding-top: 16px;
+    color: #fff;
+}
+.content-left{
+    padding-left: 8px;
+}

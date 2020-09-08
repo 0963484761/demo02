@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dethi.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-bar">
+                <div class="header-menu">
+                    <div class="header-left">
+                        <ul>
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Nước hoa nữ </a></li>
+                            <li><a href="#">Nước hoa nam </a></li>
+                            <li><a href="#"> Liên hệ</a></li>
+                         </ul>
+                    </div>
+                    <div class="header-right">
+                        <form name="form1" action="#" onsubmit="Funy()">
+                              <input type="text" name="timkiem" class="inpput">
+                              <button class="button">Tìm kiếm</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <div class="logo">
+            <img src="image/logo.png" alt="anh">
+        </div>
+        </header>
+        <main>
+            <div class="content">
+                <div class="content-body">
+                    <div class="content-left">
+                       <img src="image/img1.jpg" alt="anh">
+                     <div class="content-bar">
+                         <h3>4 loại nước hoa giành cho mùa hè 2019</h3>
+                     </div>
+                     <div class="content-boder">
+                        <h6>Eau de Toilette - Eau de Parfum?</h6><br>
+                        <h6>Chọn nước hoa cho cô dâu theo mùa cưới.</h6><br>
+                        <h6>Chọn nước hoa cho cô dâu theo mùa cưới.</h6><br>
+                        <h6>Chọn nước hoa cho cô dâu theo mùa cưới.</h6><br>
+                        <h6>Chọn nước hoa cho cô dâu theo mùa cưới.</h6><br>
+                        <h6>Chọn nước hoa cho cô dâu theo mùa cưới.</h6><br>
+                        <h6>Chọn nước hoa cho cô dâu theo mùa cưới.</h6><br>
+                     </div>
+                    </div><!--end-content-left-->
+                    <div class="content-right">
+                        <div class="content-product">
+                            <div class="content-name">
+                                <img src="image/product-img1.jpg" alt="">
+                                <h3>Very Sexy Platinum for Him</h3>
+                                <h5>1.295.000</h5>
+                            </div><!--end-content-name-->
+                            <div class="content-name">
+                                <img src="image/product-img2.jpg" alt="">
+                                <h3>Very Sexy Platinum for Him</h3>
+                                <h5>1.295.000</h5>
+                            </div><!--end-content-name-->
+                            <div class="content-name">
+                                <img src="image/product-img3.jpg" alt="">
+                                <h3>Very Sexy Platinum for Him</h3>
+                                <h5>1.295.000</h5>
+                            </div><!--end-content-name-->
+                            <div class="content-name">
+                                <img src="image/product-img1.jpg" alt="">
+                                <h3>Very Sexy Platinum for Him</h3>
+                                <h5>1.295.000</h5>
+                            </div><!--end-content-name-->
+                            <div class="content-name">
+                                <img src="image/product-img2.jpg" alt="">
+                                <h3>Very Sexy Platinum for Him</h3>
+                                <h5>1.295.000</h5>
+                            </div><!--end-content-name-->
+                            <div class="content-name">
+                                <img src="image/product-img3.jpg" alt="">
+                                <h3>Very Sexy Platinum for Him</h3>
+                                <h5>1.295.000</h5>
+                            </div><!--end-content-name-->
+                        </div>
+                    </div>
+                </div>
+                <div class="banner">
+                    <img src="image/banner.jpg" alt="">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-center">
+                <p>Copyright © 2015 Design by Ochna</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function Funy(){
+            timkiem = document.form1.timkiem;
+            if(timkiem.value == ""){
+             alert("Không bỏ chống tìm kiếm");
+             timkiem.focus();
+             timkiem.style.outlineColor = "red";
+             return false;
+            }
+        }
+    </script>
+</body>
+</html>

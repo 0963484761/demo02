@@ -1,0 +1,116 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #faf4fa;
+}
+.container{
+	width: 983px;
+	height: 895px;
+	margin: auto;
+}
+.header-bar{
+	background-color: #b93c41;
+	height: 35px;
+	display: grid;
+	grid-template-columns: 730px 1fr;
+}
+ul li{
+	list-style: none;
+	float: left;
+	padding: 7px 13px;
+}
+ul li:hover  {
+	background-color: green; 
+}
+li a{
+	text-decoration: none;
+	color: #fff;
+}
+.logo{
+	background-color: #fff;
+	height: 140px;
+}
+.header-right{
+	margin-top: 7px;
+}
+.inpput{
+	outline: none;
+
+}
+.button{
+    width: 30%;
+	outline: none;
+	border: none;
+	border-radius: 7px;
+}
+.banner img{
+  width: 980px;
+  padding-top: 15px;
+}
+.content{
+	background-color: #fff;
+	margin-top: 20px;
+	height: 500px;
+}
+.content-small{
+   display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.content-product{
+	border: 1px solid #e1e1e1;
+}
+.content-product-img {
+	padding-left: 70px;
+	padding-top: 25px;
+}
+.content-product h3{
+	text-align: center;
+	color: #884583;
+	padding-top: 20px;
+	font-family: myfont;
+}
+.abc h3{
+	font-family: myfont;
+}
+.bcd h5{
+	font-family: fontchu;
+}
+@font-face{
+	font-family: myfont;
+	src: url('./font/UTM\ Duepuntozero.ttf');
+}
+@font-face{
+	font-family: fontchu;
+	src: url('./font/UTM\ DuepuntozeroBold.ttf');
+}
+.content-small h5{
+	text-align: center;
+	padding-top: 15px;
+	color: #c12980;
+}
+.content img{
+	transition: all 2s linear;
+}
+.content img:hover{
+  transform: rotate(360deg);
+  opacity: 0.5;
+}
+footer{
+	background-color: #b93c41;
+	height: 48px;
+	margin-top: 10px;
+}
+.footer-center{
+	text-align: center;
+	padding-top: 15px;
+	color: #fff;
+}
+text {
+	font-family: myfont;
+	border: 1px so;
+}
+
+
